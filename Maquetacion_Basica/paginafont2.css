@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+
+    height: 6vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.href{
+    color: white
+}
+
+.imagenes{
+
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+   
+}
+
+
+.imagenes img{
+
+    width: 33vw;
+    height: 47vh;
+
+}
