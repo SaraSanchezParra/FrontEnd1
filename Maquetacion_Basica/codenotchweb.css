@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+main{
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    gap: 150px;
+   
+    
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+  }
+  
+
+body
+{
+  
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+#imagenfondo{
+    height: 60vh;
+    background-image: url("https://www.codenotch.com/wp-content/uploads/2021/09/Web-portada-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.fontwhite{
+    color:white;
+}
+
+#primertitulo{
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+#segundotitulo{
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#tercertitulo{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#mensajeprincipal{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#slogan{
+    height: 194px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+#imagenFrase{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#frase{
+   
+   font-style: oblique; 
+   color: black;
+   font-size: 15pt;
+   width: 70%;
+   text-align: justify;
+   padding-top: 3%;
+
+}
+
+#objetivoprincipal{
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 3%;
+    
+}
+
+.parrafogrande{
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: justify;
+    color: aquamarine;
+}
+.parrafomedio{
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+.parrafopequeño{
+    font-size: 14pt;
+    text-align: justify;
+    width: 80%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(42, 49, 49, 0.597)
+  }
+        
+      
+  .social{
+    width: 1%;
+    height: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap:90%;
+    }

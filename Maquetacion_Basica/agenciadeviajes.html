@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenciadeviajes.css">
+    <script src="agenciadeviajes.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,500&family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Orbitron:wght@400;500&family=Quicksand:wght@700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <title>Agencia de viajes</title>
+</head>
+<body>
+    <main>
+    <header>
+        <img src="./logoviajes.png" alt="logo">
+        <div class="titulo"> Viajes Come Fly With Me</div>
+       
+        <div class="fraseenganche">
+            Frank Sinatra te hizo soñar con "New York, New York"...nosotros te llevamos al mejor precio.
+        </div>
+
+        
+    </header>
+    <div class="imagenfondo">
+        
+
+       
+        <div class="cards">
+            <div class="card">
+                <div class="card-image"><img width="180" height="233" src="estatua.jpg" alt="foto"></div>
+                <div class="category"> Nueva York </div>
+                <div class="heading"> Vuela sobre los rascacielos infinitos
+            </div>
+        </div>
+            <div class="card">
+                <div class="card-image"><img width="180" height="233"  src="sevilla.jpg" alt="foto"></div>
+                <div class="category"> Sevilla </div>
+                <div class="heading"> Visita la ciudad del color especial
+            </div>
+        </div>
+            <div class="card">
+                <div class="card-image"><img width="180" height="233" src="madrid.jpg" alt="foto"></div>
+                <div class="category"> Madrid </div>
+                <div class="heading"> Averigua el porqué "de Madrid al cielo"
+            </div>
+        </div>
+    
+        </div>
+
+    </div> 
+
+        <div class="formulario" id="espacioformulario">
+
+            <p>Contáctanos:</p>
+            <form class="form" onsubmit="event.preventDefault();return false;">
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="text" id="origen" placeholder="Origen">
+                <input type="text" id="destino" placeholder="Destino">
+                <input type="number" id="numeroPersonas" placeholder="Número de personas">
+                <input type="date" id="fecha">
+                <input type="submit" onclick="recogerSolicitud()">
+                <input type="button" value="Filtrar" onclick="filtrarSolicitudes()">
+            </form>
+
+        </div>
+
+        <div id="mostrarDatos">
+            
+                <p>Nombre: ${solicitudes.nombre}</p>
+                <p>Origen: ${solicitudes.origen}</p>
+                <p>Destino: ${solicitudes.destino}</p>
+                <p>Número de personas: ${solicitudes.numeroPersonas}</p>
+                <p>Fecha: ${solicitudes.fecha}</p>
+                
+               
+
+        </div>
+
+    </main>
+</body>
+</html>
