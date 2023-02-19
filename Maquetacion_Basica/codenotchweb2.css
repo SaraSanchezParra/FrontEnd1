@@ -6,7 +6,7 @@
 
 
 main{
-  height: 100vh;
+  height: 80%;
   font-family: 'Orbitron', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
@@ -34,23 +34,17 @@ body
 background: #232323;
 color: #cdcdcd;
 font-family: "Avenir Next", "Avenir", sans-serif;
+height: 70%;
 }
 
 
-#pregunta{
-    font-size: 17pt;
-}
-
-#contacto{
-    font-size: 14pt;
-}
-
-body{
+body{ 
 background:#1322a9;
 margin:0
 }
 
 .form{
+ 
 width:340px;
 height:440px;
 background:#e6e6e6;
@@ -117,10 +111,16 @@ span{
 margin:0 5px 0 15px
 }
 
-.contactoDudas{
+.dudas{
   display: flex;
   flex-direction: row;
+  color:white;
+  display: flex;
+  flex-direction: row;
+
 }
+
+
 
 .footer {
   position: fixed;
