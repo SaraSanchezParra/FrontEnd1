@@ -52,7 +52,7 @@ function filtrarSolicitudes(){
            
         }
     }
-    document.getElementById("mostrarDatos").innerHTML = `Las personas con destino ${filtrado}`;
+    document.getElementById("mostrarDatos").innerHTML = `${filtrado}`;
 }
 
 
