@@ -38,20 +38,26 @@ function recogerSolicitud(){
 
 
 function filtrarSolicitudes(){
+
+    let filtrado = "";
     for(let i = 0; i<solicitudes.length; i++){
         if (solicitudes[i].destino.toUpperCase() == "CANARIAS" || solicitudes[i].destino.toUpperCase() == "MALLORCA" || solicitudes[i].destino.toUpperCase() == "GALICIA"){
             console.log(solicitudes[i])
+        
+            filtrado +=` <p>Nombre: ${solicitudes[i].nombre}</p>
+            <p>Origen: ${solicitudes[i].origen}</p>
+            <p>Destino: ${solicitudes[i].destino}</p>
+            <p>Número de personas: ${solicitudes[i].numeroPersonas}</p>
+            <p>Fecha: ${solicitudes[i].fecha}</p>`
+           
         }
     }
-   
+    document.getElementById("mostrarDatos").innerHTML = `Las personas con destino ${filtrado}`;
 }
 
 
 // 5. Modifica la función anterior para que ahora muestre esos datos en la landing page maquetada anteriormente.
 
-document.getElementById("mostrarDatos");
-
-solicitudes[i].innerHTML += "mostrarDatos"
 
 
 
