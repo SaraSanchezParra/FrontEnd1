@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 150px;
+   
+    
+
+  }
+  header a{
+    color: white;
+    text-decoration: none;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    transition: color 0.8s linear 0.2s;
+  }
+
+  a:hover {
+    color: rgb(235, 98, 137);
+    
+  }
+
+   
+
+  #contenedorPrincipal{
+   
+    height: 150vh;
+    width: 100vw;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    background-image: url("manos-fondo-universo-digital.jpg");
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+    
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(42, 49, 49, 0.597)
+  }
+        
+      
+  .social{
+    width: 1%;
+    height: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: transform .2s; 
+    gap:90%;
+    }
+
+    .social:hover {
+        transform: scale(1.5); 
+    }
+  

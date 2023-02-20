@@ -24,12 +24,18 @@ header{
     gap: 150px;
     
   }
-  a{
+   header a{
     color: white;
     text-decoration: none;
     font-family: "Avenir Next", "Avenir", sans-serif;
+    transition: color 0.8s linear 0.2s;
   }
 
+  a:hover {
+    color: rgba(77, 217, 232, 0.843);
+  }
+
+ 
   #contenedorDescripcion{
     height: 130vh;
     width: 100vw;
@@ -51,13 +57,13 @@ header{
 
   #descripcion{
     font-family: 'Bodoni Moda', serif;
-    background-color: rgba(0, 0, 0, 0.428);
+    background-color: rgba(0, 0, 0, 0.578);
     border-radius: 5%;
     font-size: 17pt;
     font-size: bold;
     width: 50%;
     height: 60%;
-    color: rgb(121, 223, 225);
+    color: rgb(98, 228, 230);
     text-align: justify;
     
 
@@ -132,9 +138,6 @@ header{
     font-size: 9pt;
   }
   
-  .heading:hover {
-    cursor: pointer;
-  }
 
 
 .footer {
@@ -153,8 +156,14 @@ header{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    transition: transform .2s; 
     gap:90%;
     }
+
+    .social:hover {
+      transform: scale(1.5); 
+  }
+
   
   
  

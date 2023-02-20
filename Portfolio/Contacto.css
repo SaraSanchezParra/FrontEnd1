@@ -11,6 +11,8 @@
 
 }
 
+
+
 header{
     height: 10vh;
     width: 100%;
@@ -23,39 +25,89 @@ header{
     gap: 150px;
     
   }
-  a{
+  header a{
     color: white;
     text-decoration: none;
     font-family: "Avenir Next", "Avenir", sans-serif;
+    transition: color 0.8s linear 0.2s;
+    }
+  
+  a:hover {
+  color: rgba(255, 0, 255, 0.478);
+
   }
 
   #contenedorDescripcion{
-    border: 3px solid red;
-    height: 130vh;
+   
+    height: 100vh;
     width: 100vw;
+    font-family: "Avenir Next", "Avenir", sans-serif;
     background-image: url("fondocosas.jpg");
     background-size: cover;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: white;
+    gap: 3%;
   }
+
   #contenedorSoy{
     width: 50%;
     height: 50%;
     display: flex;
+    background-color: rgba(0, 0, 0, 0.43);
+    font-family: "Avenir Next", "Avenir", sans-serif;
     flex-direction: column;
     justify-content: center;
-    gap: 2%;
-    border: 3px solid palevioletred;
-  }
-  .formulario{
-    border: 2px solid rgb(174, 255, 175);
-    width: 50%;
-    height: 50%;
+    align-items: center;
+    gap: 4%;
   }
 
+  .descripcionSoy{
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    background-color: rgba(0, 0, 0, 0.328);
+    text-align: justify;
+    font-size: 14pt;
+    gap: 3%;
+  }
+
+  .formulario{
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    background-color: rgba(0, 0, 0, 0.43);
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .formulario p{
+    font-weight: bold;
+    font-size: 20pt;
+    padding-bottom: 14px;
+
+  }
+  .form{
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    gap: 7%;
+    
+  }
+  .form input {
+    width: 80%;
+    height: 30%;
+    border: 2px solid rgb(186, 17, 198);
+    border-radius: 4px;
+}
   
- 
 
   .footer {
     position: fixed;
@@ -72,7 +124,11 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    transition: transform .2s; 
     gap:90%;
     }
-  
+
+    
+    .social:hover {
+      transform: scale(1.5); 
+  }
