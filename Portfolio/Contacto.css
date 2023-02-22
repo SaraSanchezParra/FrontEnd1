@@ -62,7 +62,10 @@ header{
     align-items: center;
     gap: 4%;
   }
-
+   h1{
+    backdrop-filter: blur(40px);
+   }
+   
   .descripcionSoy{
     font-family: "Avenir Next", "Avenir", sans-serif;
     background-color: rgba(0, 0, 0, 0.328);

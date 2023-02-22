@@ -53,8 +53,9 @@ header{
   div.noticia {
     width: 50%;
     margin: 20px auto;
-    background-color: rgba(209, 209, 223, 0.495);
-    color: #070707;
+    /* background-color: rgba(209, 209, 223, 0.495); */
+    backdrop-filter: blur(100px);
+    color: white;
     font-weight: bold;
     padding: 15px;
     transition: transform .5s; 

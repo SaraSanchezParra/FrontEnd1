@@ -76,7 +76,8 @@ header{
     transform: translate(-50%, -50%);
     color: white;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.582);
+    /* background-color: rgba(0, 0, 0, 0.582); */
+    backdrop-filter: blur(100px);
 }
 
   .footer {

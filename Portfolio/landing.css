@@ -41,6 +41,7 @@ header{
     width: 100vw;
     background-image: url("codigo.jpg");
     background-size: cover;
+    backdrop-filter: blur(40px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +58,6 @@ header{
 
   #descripcion{
     font-family: 'Bodoni Moda', serif;
-    background-color: rgba(0, 0, 0, 0.578);
     border-radius: 5%;
     font-size: 17pt;
     font-size: bold;
